@@ -67,9 +67,6 @@ const Index = () => {
                     Order Medicines <ArrowRight className="ml-2 w-4 h-4" />
                   </Link>
                 </Button>
-                <Button asChild variant="outline" size="lg" className="rounded-xl px-8">
-                  <Link to="/stocks">View Stocks</Link>
-                </Button>
               </motion.div>
             </motion.div>
 

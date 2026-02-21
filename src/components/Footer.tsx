@@ -25,7 +25,6 @@ const Footer = () => {
             <div className="flex flex-col gap-2 text-sm opacity-70">
               <Link to="/" className="hover:opacity-100 transition-opacity">Home</Link>
               <Link to="/about" className="hover:opacity-100 transition-opacity">About Us</Link>
-              <Link to="/stocks" className="hover:opacity-100 transition-opacity">Medicine Stocks</Link>
               <Link to="/order" className="hover:opacity-100 transition-opacity">Order Medicines</Link>
               <Link to="/contact" className="hover:opacity-100 transition-opacity">Contact</Link>
             </div>
