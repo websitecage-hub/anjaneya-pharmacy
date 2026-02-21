@@ -5,7 +5,7 @@ import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
-  base: '/anjaneya-pharmacy-glow/',
+  base: '/anjaneya-pharmacy/',
   server: {
     host: "::",
     port: 8080,
