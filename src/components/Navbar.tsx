@@ -23,7 +23,7 @@ const Navbar = () => {
           <div className="flex items-center gap-4 flex-wrap">
             <span className="flex items-center gap-1.5">
               <Phone className="w-3.5 h-3.5" />
-              +91-XXXXXXXXXX
+              <span className="blur-sm select-none">+91-98XXXXXXXX</span>
             </span>
             <span className="flex items-center gap-1.5">
               <Clock className="w-3.5 h-3.5" />
@@ -32,7 +32,7 @@ const Navbar = () => {
           </div>
           <span className="flex items-center gap-1.5">
             <MapPin className="w-3.5 h-3.5" />
-            Jai Vihar, Baprola, New Delhi 110043
+            Jai Vihar, Baprola, New Delhi <span className="blur-sm select-none">110043</span>
           </span>
         </div>
       </div>

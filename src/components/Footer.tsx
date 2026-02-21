@@ -49,15 +49,15 @@ const Footer = () => {
             <div className="flex flex-col gap-3 text-sm opacity-70">
               <span className="flex items-start gap-2">
                 <MapPin className="w-4 h-4 mt-0.5 shrink-0" />
-                Jai Vihar, Baprola, New Delhi – 110043
+                Jai Vihar, Baprola, New Delhi – <span className="blur-sm select-none">110043</span>
               </span>
               <span className="flex items-center gap-2">
                 <Phone className="w-4 h-4 shrink-0" />
-                +91-XXXXXXXXXX
+                <span className="blur-sm select-none">+91-98XXXXXXXX</span>
               </span>
               <span className="flex items-center gap-2">
                 <Mail className="w-4 h-4 shrink-0" />
-                info@anjaneyapharmacy.com
+                <span className="blur-sm select-none">info@anjaneyapharmacy.com</span>
               </span>
               <span className="flex items-center gap-2">
                 <Clock className="w-4 h-4 shrink-0" />

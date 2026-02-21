@@ -1,10 +1,12 @@
 import { ReactNode } from "react";
 import Navbar from "./Navbar";
+import DemoBanner from "./DemoBanner";
 import Footer from "./Footer";
 
 const Layout = ({ children }: { children: ReactNode }) => {
   return (
     <div className="min-h-screen flex flex-col">
+      <DemoBanner />
       <Navbar />
       <main className="flex-1">{children}</main>
       <Footer />

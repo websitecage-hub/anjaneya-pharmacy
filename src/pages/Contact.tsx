@@ -7,9 +7,9 @@ import { useState } from "react";
 import { toast } from "sonner";
 
 const contactInfo = [
-  { icon: MapPin, label: "Address", value: "Jai Vihar, Baprola, New Delhi – 110043" },
-  { icon: Phone, label: "Phone", value: "+91-XXXXXXXXXX" },
-  { icon: Mail, label: "Email", value: "info@anjaneyapharmacy.com" },
+  { icon: MapPin, label: "Address", value: "Jai Vihar, Baprola, New Delhi – ******" },
+  { icon: Phone, label: "Phone", value: "+91-98XX XXX XXXX" },
+  { icon: Mail, label: "Email", value: "****@anjaneyapharmacy.com" },
   { icon: Clock, label: "Hours", value: "8:00 AM – 10:00 PM (Daily)" },
 ];
 
@@ -50,7 +50,7 @@ const Contact = () => {
                     </div>
                     <div>
                       <p className="text-sm text-muted-foreground">{item.label}</p>
-                      <p className="font-medium text-foreground">{item.value}</p>
+                      <p className="font-medium text-foreground blur-sm select-none">{item.value}</p>
                     </div>
                   </div>
                 ))}
